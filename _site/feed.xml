@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T13:35:02-04:00</updated><id>/</id><title type="html">Srinidhi Palwayi</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00-04:00</published><updated>2017-10-31T00:00:00-04:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T18:39:48-04:00</updated><id>/</id><title type="html">Srinidhi Palwayi</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Viva Step and what we are doing to help those with CIPN</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Viva Step and what we are doing to help those with CIPN" /><published>2017-10-31T00:00:00-04:00</published><updated>2017-10-31T00:00:00-04:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;our-journey&quot;&gt;Our Journey&lt;/h2&gt;
 
-&lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
+&lt;p&gt;Freshman year I was part of a group that decided we want to do something to alleviate a side effect of cancer. After some research and talking to cancer patients we decided to work on helping people with Chemotherapy Induce Peripheral Neuropathy (CIPN) have increased confidence when walking.&lt;/p&gt;
 
-&lt;p&gt;Open a terminal window or a command line and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; to that location.&lt;/p&gt;
+&lt;p&gt;About 30-40% of all cancer patients have CIPN, but it’s often overlooked since it’s one of the many side effects of the chemotherapy to treat the cancer. CIPN usually results in numbness and a stinging pain in the feet and hands, causing patients to have difficulty walking and holding objects. These symptoms may last a few years after chemotherapy treatment ends; in some case the nerve damage is permanent.&lt;/p&gt;
 
-&lt;p&gt;Then enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;. You can now access your new Jekyll site from &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;. Have fun exploring your new site!&lt;/p&gt;
+&lt;p&gt;What really struck us was the loss of mobility that CIPN leads to, and the lack of reliable treatments or affordable devices to help this problem. Hence, we created a sensory substitution to assist walking.&lt;/p&gt;
 
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;h3 id=&quot;auto-generating-sitemap&quot;&gt;Auto-Generating Sitemap&lt;/h3&gt;
-&lt;p&gt;The sitemap is auto generated! Just simply change the front matter of each site. It looks like so…&lt;/p&gt;
+&lt;p&gt;Our device includes a pair of insoles with force-sensitive resistors and a pair of armbands embedded with vibration motors. Depending on how much weight the person is putting on a certain area of his foot, a corresponding motor will vibrate in the armband. This enables the person to walk steadily by giving him the necessary feedback from his feet that he was otherwise lacking. Currently, we have a Bluetooth module for the Arduino in the shoe, connected to a module in the armband to enable the vibration motors. Furthermore, it’s designed so that users can hide the band under their shirt.&lt;/p&gt;
+
+&lt;div class=&quot;image main&quot;&gt;&lt;img src=&quot;/images/priya.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;In January, we had the opportunity to participate in Georgia Tech’s Inventure Prize, which is nation’s largest undergraduate invention competition. Here we reached the semi-final round before we got eliminated, but we learnt about the business aspects of our product as well as gained more connections to discuss our idea with professors.&lt;/p&gt;
+
+&lt;p&gt;Recently, we’ve began working with the Emory Physical Therapy Department in Dr. Lyle and Dr. Kesar’s Lab to test our device and explore the possibility of using our device for rehabilitation with stroke patients. Here we are physically connected to make sure we get the most accurate results possible.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZONV81BZzr0?start=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
     priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;formspring-integration&quot;&gt;Formspring integration&lt;/h3&gt;
-&lt;p&gt;The contact form below each page on the footer actually collects information! Just change your email address in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file!&lt;/p&gt;</content><summary type="html">Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/pic02.jpg" /></entry></feed>
+&lt;/div&gt;</content><summary type="html">We can help those with Chemotherapy Induced Peripheral Neuropathy</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/banner.png" /></entry></feed>

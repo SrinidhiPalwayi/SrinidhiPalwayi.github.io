@@ -1,7 +1,7 @@
 # Site
 title:              Srinidhi Palwayi
 bio:                Always Searching for the Next Adventure
-description:        "Jekyll version of the Massively theme by HTML5UP"
+description:        My Personal Website
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -30,20 +30,17 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-# Comments
-disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
 twitter:            default
 facebook:           default
 instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Edison, NJ
+phone:              732-675-0830
+email:              spalwayi3@gatech.edu
 
 # Gems
 gems:
