@@ -1,215 +1,125 @@
+---
+layout: null
+title: Jekyll Theme - Home Page - Massively
+description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
 <!DOCTYPE HTML>
 <!--
-	Forty by HTML5 UP
+	Massively by HTML5 UP
 	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Forty by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    {% include head.html %}
+
+
 	</head>
-	<body class="is-preload">
+	<body class="is-loading">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<h2>The Jekyll Theme Version</h2>
+						<p>Massively is an HTML5 website theme designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+						<ul class="icons">
+              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Hi, my name is Forty</h1>
-							</header>
-							<div class="content">
-								<p>A responsive site template designed by HTML5 UP<br />
-								and released under the Creative Commons.</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Get Started</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
 				<!-- Main -->
 					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
+									<p>With only a few edits, you can have a stunningly beautiful website <br />
+                    nearly out of the box. Of course... you can always take it further <br />
+                    and make it something even more amazing!</p>
+								</header>
+								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+                <p>Regardless of your website's function, the homepage is what brings the user in.
+                  If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
+                <p>Your homepage must clearly describe what your site is about.
+									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
+								</p>
+								<p>
+									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
+								 </p>
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Aliquam</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Tempus</a></h3>
-										<p>feugiat amet tempus</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Magna</a></h3>
-										<p>Lorem etiam nullam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Ipsum</a></h3>
-										<p>Nisl sed aliquam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Consequat</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Etiam</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header>
-								</article>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
 							</section>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
-							</section>
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+                </ul>
+							</footer>
 
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
-
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+        {% include foot.html %}
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		{% include scripts-main.html %}
+    {% include tracking.html %}
 
 	</body>
 </html>
