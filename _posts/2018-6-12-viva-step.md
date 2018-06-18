@@ -24,10 +24,9 @@ Our device includes a pair of insoles with force-sensitive resistors and a pair 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZONV81BZzr0?start=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
+ <h5>Technologies Used: </h5>
+ <ol>
+   <li>Arduino-C</li>
+   <li>Python - to analyze the collected data</li>
+   <li>Pandas - to make graphs of the time-series</li>
+ </ol>

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T18:39:48-04:00</updated><id>/</id><title type="html">Srinidhi Palwayi</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Viva Step and what we are doing to help those with CIPN</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Viva Step and what we are doing to help those with CIPN" /><published>2017-10-31T00:00:00-04:00</published><updated>2017-10-31T00:00:00-04:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;our-journey&quot;&gt;Our Journey&lt;/h2&gt;
-=======
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T17:31:04-04:00</updated><id>/</id><title type="html">Srinidhi Palwayi</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00-04:00</published><updated>2017-10-31T00:00:00-04:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
-&lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
->>>>>>> 1179ae97afc0e6b88dc4d792207e63c9013e1f79
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-17T21:22:20-04:00</updated><id>/</id><title type="html">Srinidhi Palwayi</title><subtitle>My Personal Website</subtitle><entry><title type="html">Viva Step and what we are doing to help those with CIPN</title><link href="/blog/viva-step/" rel="alternate" type="text/html" title="Viva Step and what we are doing to help those with CIPN" /><published>2018-06-12T00:00:00-04:00</published><updated>2018-06-12T00:00:00-04:00</updated><id>/blog/viva-step</id><content type="html" xml:base="/blog/viva-step/">&lt;h2 id=&quot;our-journey&quot;&gt;Our Journey&lt;/h2&gt;
 
 &lt;p&gt;Freshman year I was part of a group that decided we want to do something to alleviate a side effect of cancer. After some research and talking to cancer patients we decided to work on helping people with Chemotherapy Induce Peripheral Neuropathy (CIPN) have increased confidence when walking.&lt;/p&gt;
 
@@ -21,9 +16,38 @@
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZONV81BZzr0?start=1&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><summary type="html">We can help those with Chemotherapy Induced Peripheral Neuropathy</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/banner.png" /></entry></feed>
+&lt;h5&gt;Technologies Used: &lt;/h5&gt;
+&lt;ol&gt;
+   &lt;li&gt;Arduino-C&lt;/li&gt;
+   &lt;li&gt;Python - to analyze the collected data&lt;/li&gt;
+   &lt;li&gt;Pandas - to make graphs of the time-series&lt;/li&gt;
+ &lt;/ol&gt;</content><summary type="html">We can help those with Chemotherapy Induced Peripheral Neuropathy</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/banner.png" /></entry><entry><title type="html">Enercage</title><link href="/blog/Enercage/" rel="alternate" type="text/html" title="Enercage" /><published>2018-05-05T00:00:00-04:00</published><updated>2018-05-05T00:00:00-04:00</updated><id>/blog/Enercage</id><content type="html" xml:base="/blog/Enercage/"></content><summary type="html"></summary></entry><entry><title type="html">Project: Treat Yo Cat</title><link href="/blog/TreatYoCat/" rel="alternate" type="text/html" title="Project: Treat Yo Cat" /><published>2016-11-05T00:00:00-04:00</published><updated>2016-11-05T00:00:00-04:00</updated><id>/blog/TreatYoCat</id><content type="html" xml:base="/blog/TreatYoCat/">&lt;h2 id=&quot;automatic-treat-dispenser&quot;&gt;Automatic Treat Dispenser&lt;/h2&gt;
+
+&lt;p&gt;Won third place at HackGSU for Treat Yo Cat, which is an app that allows you to feed your pet remotely using an iPhone app. We used an Arduino to make the hardware side of the cat feeder, and connected the Arduino to the app over wifi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://devpost.com/software/treat-yo-cat&quot;&gt;DevPost Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;​https://github.com/SrinidhiPalwayi/TreatYoCat&quot;&gt;GitHub Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/72Zc7OrDuCg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5&gt;Technologies Used: &lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;Swift&lt;/li&gt;
+  &lt;li&gt;Arduino-C&lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">First time placing at a Hackathon!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/kitten.jpg" /></entry><entry><title type="html">Project: GTSafeWalk</title><link href="/blog/GTSafeWalk/" rel="alternate" type="text/html" title="Project: GTSafeWalk" /><published>2016-09-13T00:00:00-04:00</published><updated>2016-09-13T00:00:00-04:00</updated><id>/blog/GTSafeWalk</id><content type="html" xml:base="/blog/GTSafeWalk/">&lt;p&gt;This is an iOS app that shows the most dangerous locations on the Georgia Tech campus. We used the Google Maps API to demonstrate this. Although, we didn’t finish this project it was a great experience, and also my first experience with Python, which we used to parse a csv file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/SrinidhiPalwayi/SafeWalk&quot;&gt;GitHub Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h5&gt;Technologies Used: &lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;Swift&lt;/li&gt;
+  &lt;li&gt;Google Maps API&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">First hackathon project!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/kitten.jpg" /></entry><entry><title type="html">Project: RPrepSearch</title><link href="/blog/RPrepSearch/" rel="alternate" type="text/html" title="Project: RPrepSearch" /><published>2016-05-15T00:00:00-04:00</published><updated>2016-05-15T00:00:00-04:00</updated><id>/blog/RPrepSearch</id><content type="html" xml:base="/blog/RPrepSearch/">&lt;p&gt;RPrepSearch is an app that allows users to search through private schools in the New Jersey area. It uses Swift and all the data is stored on the app itself. The app was made for the Congressional App Challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;​​https://github.com/SrinidhiPalwayi/RPrepSearch-2&quot;&gt;GitHub Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h5&gt;Technologies Used: &lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;Swift&lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">First foray into iOS development!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/images/kitten.jpg" /></entry></feed>
