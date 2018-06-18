@@ -32,10 +32,8 @@ sass:
 
 
 # Social
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+instagram:          https://www.instagram.com/nidhi_palwayi/
+github:             https://github.com/SrinidhiPalwayi
 
 # personal
 location:           Edison, NJ
@@ -58,3 +56,7 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+
+
+# Server Config options
+livereload: true     # You no longer need to include --livereload
