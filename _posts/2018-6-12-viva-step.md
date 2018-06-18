@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Viva Step and what we are doing to help those with CIPN"
+title:  "Project: Viva Step and CIPN"
 excerpt: "We can help those with Chemotherapy Induced Peripheral Neuropathy"
 image: "/images/banner.png"
 ---
